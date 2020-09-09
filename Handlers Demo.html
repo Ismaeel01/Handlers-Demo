@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	input { color: blue; }
+	h3    { color: green; }
+	h1    { color: red; }	
+	</style>
+	<meta charset="utf-8">
+	<title>Handlers Demo</title>
+</head>
+<body>
+<h3>Select some of the text:</h3>
+<input type="text" value="Hello,World!"
+ onselect="myFunction()"></p>
+ <h1 id="demo"></h1>
+ <script>
+ function myFunction() {
+ document.getElementById('demo').innerHTML =
+ "selecting text is awesome!";
+      }	
+ </script>
+</body>
+</html>
